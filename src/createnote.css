@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500&family=Lexend:wght@400;500&family=Merienda:wght@400;700&display=swap');
+
+/* font-family: 'Gothic A1', sans-serif;
+font-family: 'Lexend', sans-serif;
+font-family: 'Merienda', cursive; */
+
+
+
+*{
+    padding:0;
+    margin: 0;
+}
+
+.create-note{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+input[type=text]
+{
+    padding:10px 75px;
+    margin: 30px 0 0 0;
+}
+
+input[placeholder]
+{
+    font-family: 'Lexend', sans-serif;
+    font-size: 18px;    
+    font-weight: 500;
+    text-align: center;
+    border:0;
+    box-shadow:4px 8px 15px 4px rgba(0,0,0,0.12);
+}
+textarea{
+    overflow: auto;
+    width: 357px;
+	height: 90px;
+	border: 3px solid #cccccc;
+	padding: 5px;
+    border:0;
+    box-shadow:4px 8px 15px 4px rgba(0,0,0,0.12);  
+    font-family: 'Lexend', sans-serif;
+
+
+}
+
+
+.add-btn{
+    color: #e1ad01;
+    transform: scale(1.4);
+
+    /* width: 50px;
+    height: 50px;    */
+    
+}
+button:hover{    
+    box-shadow:4px 8px 15px rgba(0,0,0,0.12);
+}
+

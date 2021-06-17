@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500&family=Lexend:wght@400;500&family=Merienda:wght@400;700&display=swap');
+
+/* font-family: 'Gothic A1', sans-serif;
+font-family: 'Lexend', sans-serif;
+font-family: 'Merienda', cursive; */
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+#footer{
+    
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    text-align: center;
+    
+}
+p{
+    font-family:'Gothic A1', sans-serif ;
+    padding-top: 10px;
+    padding-bottom: 6px;
+}

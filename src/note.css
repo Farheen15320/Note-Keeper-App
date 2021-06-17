@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500&family=Lexend:wght@400;500&family=Merienda:wght@400;700&display=swap');
+
+/* font-family: 'Gothic A1', sans-serif;
+font-family: 'Lexend', sans-serif;
+font-family: 'Merienda', cursive; */
+*{
+    padding: 0;
+    margin: 0;
+}
+.note{
+    float: left;
+    background-color: white;
+    width: 20%;
+    margin: 20px;
+    padding: 20px;
+    box-shadow:4px 8px 15px  rgba(0,0,0,0.22); 
+}
+
+.note h1{
+    font-family: 'Gothic A1', sans-serif;
+    font-size: 20px;
+
+}
+
+.note Button{
+left: 80%;
+
+}
+Button .dlt-btn:hover{
+    margin-left: 100px;
+    box-shadow:4px 8px 15px  rgba(0,0,0,0.22);
+   }
+
+.dlt-icon{
+    color: #e1ad01;
+    transform: scale(1.2);
+}
+

@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Gothic+A1:wght@400;500&family=Lexend:wght@400;500&family=Merienda:wght@400;700&display=swap');
+
+/* font-family: 'Gothic A1', sans-serif;
+font-family: 'Lexend', sans-serif;
+font-family: 'Merienda', cursive; */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    /* position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; */
+    background-color:black;
+    box-shadow:4px 8px 15px rgba(0,0,0,0.32);
+
+}
+.header img{
+    float: left;
+}
+.header h1{
+    color: rgba(224, 224, 12, 0.842);
+    
+    padding-bottom:5px;
+    padding-top: 5px;
+    padding-left:50px ;
+    font-family: 'Merienda', cursive;
+    font-weight: 500;
+    font-size: 30px;
+    text-align: left; 
+}
